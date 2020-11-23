@@ -1,0 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Header formatting */
+header {
+    background-color: #1d2126;
+}
+
+.col-md-12 {
+    width: 1170px;
+}
