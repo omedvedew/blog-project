@@ -130,9 +130,14 @@
     background-position: center;
 }
 
+.search-icon:hover {
+    cursor: pointer;
+}
+
 .search-icon:focus {
     outline: none;
     border: 5px solid transparent;
     border-radius: 5px;
+    cursor: pointer;
 }
 
