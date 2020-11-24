@@ -89,3 +89,50 @@
     border-radius: 5px;
 }
 
+.search {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.search input {
+    width: 195px;
+    height: 30px;
+    margin-right: -15px;
+    background: none;
+    border: 2px solid #3c4147;
+    border-radius: 5px;
+    padding-left: 7px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #a4aead;
+}
+
+.search input:focus {
+    outline: none;
+}
+
+.search input::placeholder {
+    color: rgba(164, 174, 173, 1);
+}
+
+.search-icon {
+    border: none;
+    background: none;
+    position: absolute;
+    right: 15px;
+    width: 30px;
+    height: 30px;
+    background-image: url(images/icon\ \(1\).png);
+    background-size: 150%;
+    background-position: center;
+}
+
+.search-icon:focus {
+    outline: none;
+    border: 5px solid transparent;
+    border-radius: 5px;
+}
+
