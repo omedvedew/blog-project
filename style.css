@@ -253,6 +253,7 @@
     background-color: #fff;
     justify-content: center;
     margin: 0;
+    padding-bottom: 100px;
 }
 
 .about-heading {
@@ -411,6 +412,18 @@
         flex-direction: column;
         padding: 15px;
     }
+    .members {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    [class*="member-"] {
+        width: 263px;
+    }
+    .members .col-md-3 {
+        margin-bottom: 15px;
+    }
     .col-xs-12 {
         width: 100%;
     }
@@ -509,3 +522,120 @@
         padding: 0;
     }
 } 
+
+/* team formatting */
+.team-container {
+    display: flex;
+    border-top: 1px solid #dde1e4;
+    background-color: #fff;
+    justify-content: center;
+    margin: 0;
+    padding-bottom: 100px;
+}
+
+.team-heading {
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #292f36;
+    margin-bottom: 60px;
+    margin-top: 80px;
+    padding-left: 15px;
+    border-left: 10px solid #e1e6ea;
+}
+
+.team {
+    flex-direction: column;
+}
+
+.members {
+    display: flex;
+}
+
+[class*="member-"] {
+    display: flex;
+    flex-direction: column;
+}
+
+.member-describtion {
+    background-color: #e1e6ea;
+    padding: 20px;
+}
+
+.member-name {
+    color: #292f36;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.member-position {
+    color: #8d8f92;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+[class*="member-"]:hover .member-describtion>.member-name {
+    color: white;
+}
+
+[class*="member-"]:hover .member-describtion>.member-position {
+    color: white;
+}
+
+[class*="member-"]:hover .member-describtion {
+    background-color: #3a454d;
+}
+
+[class*="member-"]:hover {
+    cursor: default;
+}
+
+[class*="member-"]:hover .member-photo > img {
+    background-color: grey;
+    opacity: 0.4;
+}
+
+.member-1 {
+    position: relative;
+}
+
+.social-member {
+    position: absolute;
+    width: 263px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-member button {
+    background-color: #3a454d;
+    width: 50px;
+    height: 50px;
+    border: none;
+    margin-right: 1px;
+    display: none;
+}
+
+.social-member button:last-child {
+    margin: 0;
+}
+
+.in {
+    background-image: url(images/icon\ \(7\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 75%;
+}
+
+[class*="member-"]:hover .social-member>button {
+    display: block;
+}
+
+.social-member button:hover {
+    background-color: #4e5a62;
+    cursor: pointer;
+}
