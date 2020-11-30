@@ -411,14 +411,14 @@
         flex-direction: column;
         padding: 15px;
     }
-    .col-md-6 {
+    .col-xs-12 {
         width: 100%;
     }
     .search {
         left: 80px;
     }
 
-    .col-md-12 {
+    .col-xs-12 {
         flex-direction: column;
     }
 
@@ -461,16 +461,15 @@
         padding: 15px;
         width: 480px;
     }
-    .col-md-6 {
-        width: 480px;
+    .col-xs-12 {
+        width: 430px;
     }
     .search {
         left: 80px;
     }
 
-    .col-md-12 {
+    .col-xs-12 {
         flex-direction: column;
-        width: 430px;
     }
 
     .about {
