@@ -10,102 +10,103 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Quattrocento+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="header-container row">
-            <div class="content">
+    <header class="header">
+        <div class="container">
+            <div class="row header-row">
                 <!-- logo -->
-                <div class="col-md-3">
-                    <div class="logo">
-                        <a href=""><img src="images/logo.png" alt=""></a>
-                    </div>
+                <div class="col-md-2 col-xs-12 logo">
+                    <a href="">
+                        <img src="images/logo.png" alt="">
+                    </a>
                 </div>
                 <!-- menu -->
-                <div class="col-md-6 col-xs-12">
-                    <ul class="menu">
-                        <li class="button home"><a href="#home-anchor">HOME</a></li>
-                        <li class="button"><a href="#about-anchor">ABOUT</a></li>
-                        <li class="button"><a href="">WORK</a></li>
-                        <li class="button"><a href="#team-anchor">TEAM</a></li>
-                        <li class="button"><a href="">SERVICES</a></li>
-                        <li class="button"><a href="">FEATURES</a></li>
-                        <li class="button"><a href="">CONTACT</a></li>
-                    </ul>
+                <div class="col-md-8 col-xs-12 menu">
+                    <nav>
+                        <a class="home" href="">HOME</a>
+                        <a href="">ABOUT</a>
+                        <a href="">TEAM</a>
+                        <a href="">SERVICES</a>
+                        <a href="">FEATURES</a>
+                        <a href="">CONTACT</a>
+                    </nav>
                 </div>
                 <!-- search -->
-                <div class="col-md-3 search">
+                <div class="col-md-2 col-xs-12 search">
                     <input type="text" placeholder="SEARCH">
                     <button class="search-icon"></button>
                 </div>
             </div>
         </div>
     </header>
-    <main>
-        <!-- cover -->
-        <div class="cover-container row" id="home-anchor">
-            <div class="content cover">
-                <div class="cov-sec-1">
-                    <div class="col-md-12 col-xs-12">
-                        <div class="cover-content">
-                            <h1 class="cover-heading">WELCOME TO OUR MARKETPLACE</h1>
-                            <p class="cover-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique ndolor 
-                                non, ornare sagittis dolor. Nulla vestibulu lacus ...</p>
-                            <div class="cover-buttons">
-                                <button>VIEW MORE</button>
-                                <button>VIDEO TOUR</button>
-                            </div>
+
+    <main class="main">
+        <!-- slider -->
+        <div class="slider">
+            <div class="container">
+                <div class="row slider-row">
+                    <div class="col-md-12 col-xs-12 slider-content">
+                        <h1 class="cover-heading">WELCOME TO OUR MARKETPLACE    
+                        </h1>
+                        <p class="cover-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique ndolor 
+                        non, ornare sagittis dolor. Nulla vestibulu lacus ...</p>
+                        <div class="cover-buttons">
+                            <button>VIEW MORE</button>
+                            <button>VIDEO TOUR</button>
                         </div>
                     </div>
-                </div>
-                <div class="cov-sec-2">
-                    <div class="col-md-12 col-xs-12">
-                        <div class="radio">
-                            <input type="radio" name="1" id="1"><label for="1"></label>
-                            <input type="radio" name="1" id="2"><label for="2"></label>
-                            <input type="radio" name="1" id="3"><label for="3"></label>
-                        </div>
+                    <div class="col-md-12 col-xs-12 slider-radio">
+                        <input type="radio" name="1" id="1"><label for="1"></label>
+                        <input type="radio" name="1" id="2"><label for="2"></label>
+                        <input type="radio" name="1" id="3"><label for="3"></label>
                     </div>
                 </div>
             </div>
         </div>
 
         <!-- about -->
-        <div class="about-container row" id="about-anchor">
-            <div class="content about">
-                <div class="col-md-12 col-xs-12">
-                    <h2 class="about-heading">WE ARE MODEST.</h2>
-                </div>
-                <div class="col-md-12 col-xs-12">
-                    <div class="description">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique ndolor non, ornare sagittis dolor. Nulla vestibulu lacus sed molestie gravida. Crferm entum  quismagna congue, vel sodales arcu vestibulum. Nunc lobortis dui magna, quis lacusullamcorper at. </p>
-                        <p>Phasellus sollicitudin ante eros ornare, <span>sit amet luctus lorem semper</span>. Suspendisse posuere, quamdictum consectetur, augue metus pharetra tellus, eu feugiatloreg egetnisi. Cras ornare bibendum ante, ut bibendum odio convallis eget. vel sodales arcu vestibulum</p>
-                        <div class="share-container">
-                            <button class="facebook"></button>
-                            <button class="twitter"></button>
-                            <button class="google"></button>
-                            <button class="ball"></button>
-                            <button class="be"></button>
-                        </div>
+        <div class="about">
+            <div class="container">
+                <div class="row about-row">
+                    <div class="col-md-12 col-xs-12">
+                        <h2 class="about-heading">WE ARE MODEST.</h2>
                     </div>
-                    <div class="goals">
-                        <div class="frst-goal">
-                            <div class="goal-number"><span>01</span></div>
-                            <div class="goal-description">
-                                <h3>DEDICATION TO THE CUSTOMERS</h3>
-                                <p>Integer vel lacus non dui ullamcorper venenatis. Aliquam vitae tristique nisi, vitae ullamcorper risus.</p>
+                    <div class="description-row">
+                        <div class="col-md-7 col-xs-12">
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique ndolor non, ornare sagittis dolor. Nulla vestibulu lacus sed molestie gravida. Crferm entum  quismagna congue, vel sodales arcu vestibulum. Nunc lobortis dui magna, quis lacusullamcorper at. </p>
+                                <p>Phasellus sollicitudin ante eros ornare, <span>sit amet luctus lorem semper</span>. Suspendisse posuere, quamdictum consectetur, augue metus pharetra tellus, eu feugiatloreg egetnisi. Cras ornare bibendum ante, ut bibendum odio convallis eget. vel sodales arcu vestibulum</p>
+                                <div class="share-container">
+                                    <button class="facebook"></button>
+                                    <button class="twitter"></button>
+                                    <button class="google"></button>
+                                    <button class="ball"></button>
+                                    <button class="be"></button>
+                                </div>
                             </div>
                         </div>
-                        <div class="scnd-goal">
-                            <div class="goal-number"><span>02</span></div>
-                            <div class="goal-description">
-                                <h3>WORKING CLOSELY WITH OUR CLIENTS</h3>
-                                <p>Sed blandit nisi urna, sed pellentesque enim consectetur vitae. Suspendisse ut vehicula nibh.</p>
-                            </div>
-                        </div>
-                        <div class="thrd-goal">
-                            <div class="goal-number"><span>03</span></div>
-                            <div class="goal-description">
-                                <h3>INCREASE HAPPINESS</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eleifend laoreet euismod.</p>
+                        <div class="col-md-5 col-xs-12">
+                            <div class="goals">
+                                <div class="frst-goal">
+                                    <div class="goal-number"><span>01</span></div>
+                                    <div class="goal-description">
+                                        <h3>DEDICATION TO THE CUSTOMERS</h3>
+                                        <p>Integer vel lacus non dui ullamcorper venenatis. Aliquam vitae tristique nisi, vitae ullamcorper risus.</p>
+                                    </div>
+                                </div>
+                                <div class="scnd-goal">
+                                    <div class="goal-number"><span>02</span></div>
+                                    <div class="goal-description">
+                                        <h3>WORKING CLOSELY WITH OUR CLIENTS</h3>
+                                        <p>Sed blandit nisi urna, sed pellentesque enim consectetur vitae. Suspendisse ut vehicula nibh.</p>
+                                    </div>
+                                </div>
+                                <div class="thrd-goal">
+                                    <div class="goal-number"><span>03</span></div>
+                                    <div class="goal-description">
+                                        <h3>INCREASE HAPPINESS</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eleifend laoreet euismod.</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -114,67 +115,69 @@
         </div>
 
         <!-- team -->
-        <div class="team-container row" id="team-anchor">
-            <div class="content team">
-                <div class="col-md-12 col-xs-12">
-                    <h2 class="team-heading">MEET THE TEAM.</h2>
-                </div>
-                <div class="col-md-12 col-xs-12">
-                    <div class="members row">
-                        <div class="member-1 col-md-3">
-                            <div class="member-photo">
-                                <img src="images/img (6).png" alt="">
-                                <div class="social-member">
-                                    <button class="twitter"></button>
-                                    <button class="facebook"></button>
-                                    <button class="in"></button>
+        <div class="team">
+            <div class="container">
+                <div class="row team-row">
+                    <div class="col-md-12 col-xs-12">
+                        <h2 class="team-heading">MEET THE TEAM.</h2>
+                    </div>
+                    <div class="col-md-12 col-xs-12">
+                        <div class="members-row">
+                            <div class="member-1 col-md-3 col-sm-6 col-xs-12">
+                                <div class="member-photo">
+                                    <img src="images/img (6).png" alt="">
+                                    <div class="social-member">
+                                        <button class="twitter"></button>
+                                        <button class="facebook"></button>
+                                        <button class="in"></button>
+                                    </div>
+                                </div>
+                                <div class="member-describtion">
+                                    <div class="member-name">GLORIA BROMLEY</div>
+                                    <div class="member-position">CEO and Founder</div>
                                 </div>
                             </div>
-                            <div class="member-describtion">
-                                <div class="member-name">GLORIA BROMLEY</div>
-                                <div class="member-position">CEO and Founder</div>
-                            </div>
-                        </div>
-                        <div class="member-2 col-md-3">
-                            <div class="member-photo">
-                                <img src="images/img (5).png" alt="">
-                                <div class="social-member">
-                                    <button class="twitter"></button>
-                                    <button class="facebook"></button>
-                                    <button class="in"></button>
+                            <div class="member-2 col-md-3 col-sm-6 col-xs-12">
+                                <div class="member-photo">
+                                    <img src="images/img (5).png" alt="">
+                                    <div class="social-member">
+                                        <button class="twitter"></button>
+                                        <button class="facebook"></button>
+                                        <button class="in"></button>
+                                    </div>
+                                </div>
+                                <div class="member-describtion">
+                                    <div class="member-name">PAUL TORRES</div>
+                                    <div class="member-position">Head of Development</div>
                                 </div>
                             </div>
-                            <div class="member-describtion">
-                                <div class="member-name">PAUL TORRES</div>
-                                <div class="member-position">Head of Development</div>
-                            </div>
-                        </div>
-                        <div class="member-3 col-md-3">
-                            <div class="member-photo">
-                                <img src="images/img (4).png" alt="">
-                                <div class="social-member">
-                                    <button class="twitter"></button>
-                                    <button class="facebook"></button>
-                                    <button class="in"></button>
+                            <div class="member-3 col-md-3 col-sm-6 col-xs-12">
+                                <div class="member-photo">
+                                    <img src="images/img (4).png" alt="">
+                                    <div class="social-member">
+                                        <button class="twitter"></button>
+                                        <button class="facebook"></button>
+                                        <button class="in"></button>
+                                    </div>
+                                </div>
+                                <div class="member-describtion">
+                                    <div class="member-name">JUDITH GILLET</div>
+                                    <div class="member-position">Graphic Desinger</div>
                                 </div>
                             </div>
-                            <div class="member-describtion">
-                                <div class="member-name">JUDITH GILLET</div>
-                                <div class="member-position">Graphic Desinger</div>
-                            </div>
-                        </div>
-                        <div class="member-4 col-md-3">
-                            <div class="member-photo">
-                                <img src="images/img (3).png" alt="">
-                                <div class="social-member">
-                                    <button class="twitter"></button>
-                                    <button class="facebook"></button>
-                                    <button class="in"></button>
+                            <div class="member-4 col-md-3 col-sm-6 col-xs-12">
+                                <div class="member-photo">
+                                    <img src="images/img (3).png" alt="">
+                                    <div class="social-member">
+                                        <button class="twitter"></button>
+                                        <button class="facebook"></button>
+                                        <button class="in"></button>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="member-describtion">
-                                <div class="member-name">DELORES REED</div>
-                                <div class="member-position">Client Service Director</div>
+                                <div class="member-describtion">
+                                    <div class="member-name">DELORES REED</div>
+                                    <div class="member-position">Client Service Director</div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -182,6 +185,6 @@
             </div>
         </div>
     </main>
-    <footer>footer</footer>
+    <footer class="footer">Footer</footer>
 </body>
 </html>
