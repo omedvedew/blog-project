@@ -33,8 +33,6 @@ body {
 /* header-formatting */
 .header {
     background-color: #1d2126;
-    position: sticky;
-    top: 0;
 }
 
 .menu {
@@ -542,6 +540,11 @@ body {
 
     .member-describtion {
         margin-bottom: 20px;
+    }
+
+    .header {
+        position: sticky;
+        top: 0;
     }
 }
 
