@@ -212,6 +212,7 @@ body {
     display: flex;
 }
 
+/* about */
 .about {
     background-color: #fff;
     padding-bottom: 100px;
@@ -351,6 +352,7 @@ body {
     background-repeat: no-repeat;
 }
 
+/* team */
 .team {
     background-color: #fff;
     padding-bottom: 100px;
@@ -447,6 +449,7 @@ body {
     cursor: pointer;
 }
 
+/* work */
 .work {
     background-color: #3a454d;
 }
@@ -557,6 +560,65 @@ body {
 
 .show-more-btn:hover {
     cursor: pointer;
+}
+
+/* services */
+div.service-items {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+[class*="service-it"] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 65px;
+}
+
+.service-icon {
+    display: block;
+    width: 67px;
+    height: 67px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.service-item-1 .service-icon {
+    background-image: url(images/icon\ \(12\).png);
+}
+
+.service-item-2 .service-icon {
+    background-image: url(images/icon\ \(14\).png);
+}
+
+.service-item-3 .service-icon {
+    background-image: url(images/icon\ \(11\).png);
+}
+
+.service-item-4 .service-icon {
+    background-image: url(images/icon\ \(13\).png);
+}
+
+.service-title {
+    margin-top: 33px;
+    margin-bottom: 30px;
+    color: #292f36;
+    text-align: center;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.service-description {
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+    color: #8d8f92;
+    line-height: 26px;
+    margin-bottom: 40px;
 }
 
 /* ADAPTIVITY */
