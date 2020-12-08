@@ -741,6 +741,18 @@ div.service-items {
     cursor: pointer;
 }
 
+/* footer */
+footer {
+    background-color: #3a454d;
+    margin-top: 75px;
+}
+
+.footer-text {
+    color: white;
+    font-size: 14px;
+    line-height: 95px;
+}
+
 
 /* ADAPTIVITY */
 /* tablet */
@@ -930,5 +942,11 @@ div.service-items {
         background-repeat: no-repeat;
         background-position: center;
         background-size: 300%;
+    }
+
+    .footer-text {
+        color: white;
+        font-size: 10px;
+        line-height: 50px;
     }
 }
