@@ -622,6 +622,51 @@ div.service-items {
     margin-bottom: 40px;
 }
 
+/* features */
+.features {
+    background-color: #3a454d;
+}
+
+.features-heading {
+    color: white;
+}
+
+[class*="feature-"] {
+    display: flex;
+}
+
+.feature-item {
+    flex-direction: column;
+}
+
+.feature-image img {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.feature-description-title {
+    color: white;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.feature-description-text {
+    color: #dcdfe1;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 26px;
+    margin-bottom: 35px;
+    padding-right: 3px;
+}
+
+.feature-items-container {
+    padding-bottom: 80px;
+    flex-wrap: wrap;
+}
+
 /* ADAPTIVITY */
 /* tablet */
 @media (min-width: 768px) {
