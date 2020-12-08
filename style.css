@@ -667,6 +667,81 @@ div.service-items {
     flex-wrap: wrap;
 }
 
+/* contacts */
+.contact-row {
+    margin: 0;
+}
+
+.map {
+    display: flex;
+    padding: 0;
+}
+
+.map img {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.contact-info-heading {
+    border: none;
+    color: #292f36;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 35px;
+}
+
+.contact-info-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-info-container p {
+    color: #8d8f92;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+.contact-info-container p span {
+    font-weight: bold;
+}
+
+.send-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.send-message-btn {
+    width: 150px;
+    height: 45px;
+    background: none;
+    color: white;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 14px;
+    line-height: 43px;
+    font-weight: bold;
+    border: 2px solid  #39a493;
+    border-radius: 5px;
+    background-color: #39a493;
+}
+
+.send-message-btn:focus {
+    background-color: white;
+    color: #39a493;
+    border: 2px solid #39a493;
+    cursor: pointer;
+    outline: none;
+}
+
+.send-message-btn:hover {
+    cursor: pointer;
+}
+
+
 /* ADAPTIVITY */
 /* tablet */
 @media (min-width: 768px) {
@@ -843,5 +918,17 @@ div.service-items {
 
     .member-describtion {
         margin-bottom: 20px;
+    }
+
+    .map img {
+        display: none;
+    }
+
+    .map {
+        height: 30vh;
+        background-image: url(images/img\ \(1\).png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 300%;
     }
 }
