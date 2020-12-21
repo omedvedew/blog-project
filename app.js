@@ -16,12 +16,15 @@ closeBtn.addEventListener("click", closeModal);
 
 let body = document.getElementById("home-anchor");
 
-window.addEventListener("scroll", function() {
-    console.log(pageYOffset);
-    if (pageYOffset >= body.offsetHeight/2 && pageYOffset <= body.offsetHeight/2 + 50) {
-        showModal();
-    };
-});
+window.addEventListener("scroll", handler);
+
+function handler() {
+    if (pageYOffset >= body.offsetHeight/2) {
+    showModal();
+    window.removeEventListener("scroll", handler);
+};
+
+}
 
 let sendMessageBtn = document.querySelector(".send-message-btn");
 console.log(sendMessageBtn);
