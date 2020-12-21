@@ -1061,4 +1061,9 @@ footer {
         font-size: 10px;
         line-height: 50px;
     }
+
+    .modal-window {
+        flex: 0 0 70%;
+        max-width: 70%;
+    }
 }
