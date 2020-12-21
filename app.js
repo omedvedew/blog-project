@@ -22,3 +22,13 @@ window.addEventListener("scroll", function() {
         showModal();
     };
 });
+
+let sendMessageBtn = document.querySelector(".send-message-btn");
+console.log(sendMessageBtn);
+
+let sendMessageModal = document.querySelector(".send-message-modal");
+console.log(sendMessageModal);
+
+sendMessageBtn.addEventListener("click", function() {
+   sendMessageModal.classList.toggle("show");
+});
